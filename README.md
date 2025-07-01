@@ -3,6 +3,7 @@ Its path is ```kafka-qr-email/src/main/resources/application.yaml```
 
 **Note: Here your app password is not your email password. Its the app password generated. Steps to generate your app password is given below.**
 
+***application.yaml code:***
 ```yaml
 server:
     port: 8085
