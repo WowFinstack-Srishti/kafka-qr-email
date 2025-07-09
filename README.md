@@ -11,17 +11,6 @@ server:
 spring:
     application:
         name: kafka-qr-email
-    kafka:
-        bootstrap-servers: localhost:9092
-        producer:
-            key-serializer: org.apache.kafka.common.serialization.StringSerializer
-            value-serializer: org.apache.kafka.common.serialization.StringSerializer
-        consumer:
-            key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
-            value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
-            group-id: kafka_learn
-            auto-offset-reset: earliest
-    
     mail:
         host: smtp.gmail.com
         port: 587
